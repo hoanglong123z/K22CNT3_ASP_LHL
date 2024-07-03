@@ -1,0 +1,72 @@
+﻿@model LHL_K22CNT3_lesson10.Models.LhlAccount
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LhlAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlActive)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

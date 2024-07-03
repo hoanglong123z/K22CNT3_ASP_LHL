@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="LHLK22CNT3_Ls10Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="LhlAccount">
+          <Key>
+            <PropertyRef Name="LhlId" />
+          </Key>
+          <Property Name="LhlId" Type="int" Nullable="false" />
+          <Property Name="LhlUserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LhlPassword" Type="nvarchar" MaxLength="50" />
+          <Property Name="LhlFullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="LhlEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="LhlPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="LhlActive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="LHLK22CNT3_Ls10ModelStoreContainer">
+          <EntitySet Name="LhlAccount" EntityType="Self.LhlAccount" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="LHLK22CNT3_Ls10Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="LhlAccount">
+          <Key>
+            <PropertyRef Name="LhlId" />
+          </Key>
+          <Property Name="LhlId" Type="Int32" Nullable="false" />
+          <Property Name="LhlUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LhlPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LhlFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LhlEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LhlPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LhlActive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="LHLK22CNT3_Ls10Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="LhlAccounts" EntityType="Self.LhlAccount" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="LHLK22CNT3_Ls10ModelStoreContainer" CdmEntityContainer="LHLK22CNT3_Ls10Entities1">
+          <EntitySetMapping Name="LhlAccounts">
+            <EntityTypeMapping TypeName="LHLK22CNT3_Ls10Model.LhlAccount">
+              <MappingFragment StoreEntitySet="LhlAccount">
+                <ScalarProperty Name="LhlId" ColumnName="LhlId" />
+                <ScalarProperty Name="LhlUserName" ColumnName="LhlUserName" />
+                <ScalarProperty Name="LhlPassword" ColumnName="LhlPassword" />
+                <ScalarProperty Name="LhlFullName" ColumnName="LhlFullName" />
+                <ScalarProperty Name="LhlEmail" ColumnName="LhlEmail" />
+                <ScalarProperty Name="LhlPhone" ColumnName="LhlPhone" />
+                <ScalarProperty Name="LhlActive" ColumnName="LhlActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

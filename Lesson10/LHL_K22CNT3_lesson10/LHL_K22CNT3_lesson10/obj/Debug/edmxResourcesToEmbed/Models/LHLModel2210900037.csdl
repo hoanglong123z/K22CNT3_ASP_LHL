@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LHLK22CNT3_Ls10Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LhlAccount">
+    <Key>
+      <PropertyRef Name="LhlId" />
+    </Key>
+    <Property Name="LhlId" Type="Int32" Nullable="false" />
+    <Property Name="LhlUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LhlPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LhlFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LhlEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LhlPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LhlActive" Type="Boolean" />
+  </EntityType>
+  <EntityContainer Name="LHLK22CNT3_Ls10Entities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LhlAccounts" EntityType="Self.LhlAccount" />
+  </EntityContainer>
+</Schema>

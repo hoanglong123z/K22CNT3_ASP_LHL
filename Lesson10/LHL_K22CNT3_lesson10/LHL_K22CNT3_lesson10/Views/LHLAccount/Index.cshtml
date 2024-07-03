@@ -1,0 +1,63 @@
+﻿@model IEnumerable<LHL_K22CNT3_lesson10.Models.LhlAccount>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.LhlId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.LhlId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.LhlId })
+        </td>
+    </tr>
+}
+
+</table>

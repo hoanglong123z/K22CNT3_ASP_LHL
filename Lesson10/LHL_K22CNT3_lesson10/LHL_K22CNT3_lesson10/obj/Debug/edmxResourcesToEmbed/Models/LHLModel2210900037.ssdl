@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LHLK22CNT3_Ls10Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LhlAccount">
+    <Key>
+      <PropertyRef Name="LhlId" />
+    </Key>
+    <Property Name="LhlId" Type="int" Nullable="false" />
+    <Property Name="LhlUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlFullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlActive" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="LHLK22CNT3_Ls10ModelStoreContainer">
+    <EntitySet Name="LhlAccount" EntityType="Self.LhlAccount" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
