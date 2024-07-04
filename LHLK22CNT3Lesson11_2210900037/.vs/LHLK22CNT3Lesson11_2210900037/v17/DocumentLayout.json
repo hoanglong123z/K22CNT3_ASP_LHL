@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|c:\\exercise\\baitapasp\\lhlk22cnt3lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\lhlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\lhlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlcategories\\lhlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlcategories\\lhlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\controllers\\lhlproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\controllers\\lhlproductscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\shared\\lhl2210900037_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\shared\\lhl2210900037_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\models\\lhlcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\models\\lhlcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\controllers\\lhlcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\controllers\\lhlcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\models\\lhl2210900037model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\models\\lhl2210900037model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlhome\\lhlcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlhome\\lhlcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\lhlk22cnt3lesson11_2210900037\\views\\lhlhome\\lhlabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6951B02-9157-43EC-A7CB-BAD286143292}|LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037.csproj|solutionrelative:lhlk22cnt3lesson11_2210900037\\views\\lhlhome\\lhlabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Edit.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Edit.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Edit.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T03:46:35.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Details.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Details.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Details.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Details.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T03:46:31.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Delete.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Delete.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Delete.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T03:46:25.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Create.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Create.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Create.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAE0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T03:46:19.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LhlIndex.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\LhlIndex.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\LhlIndex.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\LhlIndex.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLProducts\\LhlIndex.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T03:41:53.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LHLProductsController.cs",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLProductsController.cs",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLProductsController.cs",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLProductsController.cs",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:41:18.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LHLCategory.cs",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Models\\LHLCategory.cs",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Models\\LHLCategory.cs",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Models\\LHLCategory.cs",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Models\\LHLCategory.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:15:07.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LHLIndex.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLCategories\\LHLIndex.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLCategories\\LHLIndex.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLCategories\\LHLIndex.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLCategories\\LHLIndex.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T03:06:27.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LHLCategoriesController.cs",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLCategoriesController.cs",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLCategoriesController.cs",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLCategoriesController.cs",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Controllers\\LHLCategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T03:03:39.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LHL2210900037Model.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Models\\LHL2210900037Model.edmx",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Models\\LHL2210900037Model.edmx",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Models\\LHL2210900037Model.edmx [Diagram1]",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Models\\LHL2210900037Model.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-07-04T02:56:02.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LHLContact.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLContact.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLContact.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLContact.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLContact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T02:48:44.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LHLAbout.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLAbout.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLAbout.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLAbout.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\LHLHome\\LHLAbout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T02:48:28.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LHL2210900037_Layout.cshtml",
+              "DocumentMoniker": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\Shared\\LHL2210900037_Layout.cshtml",
+              "RelativeDocumentMoniker": "LHLK22CNT3Lesson11_2210900037\\Views\\Shared\\LHL2210900037_Layout.cshtml",
+              "ToolTip": "C:\\exercise\\BaitapASP\\LHLK22CNT3Lesson11_2210900037\\LHLK22CNT3Lesson11_2210900037\\Views\\Shared\\LHL2210900037_Layout.cshtml",
+              "RelativeToolTip": "LHLK22CNT3Lesson11_2210900037\\Views\\Shared\\LHL2210900037_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T02:47:03.428Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

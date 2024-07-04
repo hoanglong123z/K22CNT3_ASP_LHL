@@ -1,0 +1,59 @@
+﻿@model LHLK22CNT3Lesson11_2210900037.Models.LHLProduct
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/LHL2210900037_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>LHLProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LhlActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LhlActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LHLCategory.LhlCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LHLCategory.LhlCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.LhlId2210900037 }) |
+    @Html.ActionLink("Back to List", "LhlIndex")
+</p>

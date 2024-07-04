@@ -1,0 +1,56 @@
+﻿@model IEnumerable<LHLK22CNT3Lesson11_2210900037.Models.LHLCategory>
+
+@{
+    ViewBag.Title = "Danh Mục Sản Phẩm";
+    Layout = "~/Views/Shared/LHL2210900037_Layout.cshtml";
+}
+
+<h2>Danh Mục Sản Phẩm</h2>
+
+<p>
+    @* Html.ActionLink("Create New", "Create") *@
+</p>
+<a href="/LHLCategories/Create" class="btn btn-primary my-3">Thêm Mới</a> 
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlId)s
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LhlStatus)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LhlCateName)
+        </td>
+        <td>
+            @*Html.DisplayFor(modelItem => item.LhlStatus)*@
+
+            @if (item.LhlStatus == true)
+            {
+                <span style="color:green"> Hoạt Động </span>
+            }
+            else
+            {
+                <span style="color:red"> Không Hoạt Động </span>
+            }
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.LhlId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.LhlId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.LhlId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LhlK22CNT3_Lesson11Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="LHLCategory">
+    <Key>
+      <PropertyRef Name="LhlId" />
+    </Key>
+    <Property Name="LhlId" Type="int" Nullable="false" />
+    <Property Name="LhlCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="LHLProduct">
+    <Key>
+      <PropertyRef Name="LhlId2210900037" />
+    </Key>
+    <Property Name="LhlId2210900037" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="LhlProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="LhlQty" Type="int" />
+    <Property Name="LhlPrice" Type="float" />
+    <Property Name="LhlCateId" Type="int" />
+    <Property Name="LhlActive" Type="bit" />
+  </EntityType>
+  <Association Name="FK_LHLProduct_LHLCategory">
+    <End Role="LHLCategory" Type="Self.LHLCategory" Multiplicity="0..1" />
+    <End Role="LHLProduct" Type="Self.LHLProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LHLCategory">
+        <PropertyRef Name="LhlId" />
+      </Principal>
+      <Dependent Role="LHLProduct">
+        <PropertyRef Name="LhlCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LhlK22CNT3_Lesson11ModelStoreContainer">
+    <EntitySet Name="LHLCategory" EntityType="Self.LHLCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LHLProduct" EntityType="Self.LHLProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_LHLProduct_LHLCategory" Association="Self.FK_LHLProduct_LHLCategory">
+      <End Role="LHLCategory" EntitySet="LHLCategory" />
+      <End Role="LHLProduct" EntitySet="LHLProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

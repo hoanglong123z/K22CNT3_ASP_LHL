@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LhlK22CNT3_Lesson11ModelStoreContainer" CdmEntityContainer="LhlK22CNT3_Lesson11Entities">
+    <EntitySetMapping Name="LHLCategories">
+      <EntityTypeMapping TypeName="LhlK22CNT3_Lesson11Model.LHLCategory">
+        <MappingFragment StoreEntitySet="LHLCategory">
+          <ScalarProperty Name="LhlId" ColumnName="LhlId" />
+          <ScalarProperty Name="LhlCateName" ColumnName="LhlCateName" />
+          <ScalarProperty Name="LhlStatus" ColumnName="LhlStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LHLProducts">
+      <EntityTypeMapping TypeName="LhlK22CNT3_Lesson11Model.LHLProduct">
+        <MappingFragment StoreEntitySet="LHLProduct">
+          <ScalarProperty Name="LhlId2210900037" ColumnName="LhlId2210900037" />
+          <ScalarProperty Name="LhlProName" ColumnName="LhlProName" />
+          <ScalarProperty Name="LhlQty" ColumnName="LhlQty" />
+          <ScalarProperty Name="LhlPrice" ColumnName="LhlPrice" />
+          <ScalarProperty Name="LhlCateId" ColumnName="LhlCateId" />
+          <ScalarProperty Name="LhlActive" ColumnName="LhlActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
