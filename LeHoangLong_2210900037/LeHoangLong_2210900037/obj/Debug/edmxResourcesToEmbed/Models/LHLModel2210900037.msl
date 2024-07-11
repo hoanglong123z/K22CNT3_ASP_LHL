@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="LeHoangLong_2210900037ModelStoreContainer" CdmEntityContainer="LeHoangLong_2210900037Entities">
+    <EntitySetMapping Name="Lhl_Sach">
+      <EntityTypeMapping TypeName="LeHoangLong_2210900037Model.Lhl_Sach">
+        <MappingFragment StoreEntitySet="Lhl_Sach">
+          <ScalarProperty Name="Lhl_MaSach" ColumnName="Lhl_MaSach" />
+          <ScalarProperty Name="Lhl_TenSach" ColumnName="Lhl_TenSach" />
+          <ScalarProperty Name="Lhl_SoTrang" ColumnName="Lhl_SoTrang" />
+          <ScalarProperty Name="Lhl_NamXB" ColumnName="Lhl_NamXB" />
+          <ScalarProperty Name="Lhl_MaTG" ColumnName="Lhl_MaTG" />
+          <ScalarProperty Name="Lhl_TrangThai" ColumnName="Lhl_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lhl_TacGia">
+      <EntityTypeMapping TypeName="LeHoangLong_2210900037Model.Lhl_TacGia">
+        <MappingFragment StoreEntitySet="Lhl_TacGia">
+          <ScalarProperty Name="Lhl_MaTG" ColumnName="Lhl_MaTG" />
+          <ScalarProperty Name="Lhl_TenTG" ColumnName="Lhl_TenTG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

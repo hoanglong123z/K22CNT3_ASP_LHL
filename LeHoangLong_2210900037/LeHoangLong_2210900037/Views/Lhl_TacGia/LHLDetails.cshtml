@@ -1,0 +1,26 @@
+﻿@model LeHoangLong_2210900037.Models.Lhl_TacGia
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Lhl_TacGia</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Lhl_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lhl_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("LHL:Edit", "LHLEdit", new { id = Model.Lhl_MaTG },new {@class = "btn btn-success"}) |
+    @Html.ActionLink("Quay Lại", "LHLIndex")
+</p>

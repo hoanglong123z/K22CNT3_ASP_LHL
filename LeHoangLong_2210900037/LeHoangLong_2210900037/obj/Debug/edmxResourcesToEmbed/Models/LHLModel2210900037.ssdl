@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeHoangLong_2210900037Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Lhl_Sach">
+    <Key>
+      <PropertyRef Name="Lhl_MaSach" />
+    </Key>
+    <Property Name="Lhl_MaSach" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Lhl_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Lhl_SoTrang" Type="int" />
+    <Property Name="Lhl_NamXB" Type="int" />
+    <Property Name="Lhl_MaTG" Type="char" MaxLength="5" />
+    <Property Name="Lhl_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="Lhl_TacGia">
+    <Key>
+      <PropertyRef Name="Lhl_MaTG" />
+    </Key>
+    <Property Name="Lhl_MaTG" Type="char" MaxLength="5" Nullable="false" />
+    <Property Name="Lhl_TenTG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_Lhl_Sach_Lhl_TacGia">
+    <End Role="Lhl_TacGia" Type="Self.Lhl_TacGia" Multiplicity="0..1" />
+    <End Role="Lhl_Sach" Type="Self.Lhl_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lhl_TacGia">
+        <PropertyRef Name="Lhl_MaTG" />
+      </Principal>
+      <Dependent Role="Lhl_Sach">
+        <PropertyRef Name="Lhl_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LeHoangLong_2210900037ModelStoreContainer">
+    <EntitySet Name="Lhl_Sach" EntityType="Self.Lhl_Sach" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Lhl_TacGia" EntityType="Self.Lhl_TacGia" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Lhl_Sach_Lhl_TacGia" Association="Self.FK_Lhl_Sach_Lhl_TacGia">
+      <End Role="Lhl_TacGia" EntitySet="Lhl_TacGia" />
+      <End Role="Lhl_Sach" EntitySet="Lhl_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

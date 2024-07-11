@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LeHoangLong_2210900037Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Lhl_Sach">
+    <Key>
+      <PropertyRef Name="Lhl_MaSach" />
+    </Key>
+    <Property Name="Lhl_MaSach" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Lhl_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Lhl_SoTrang" Type="Int32" />
+    <Property Name="Lhl_NamXB" Type="Int32" />
+    <Property Name="Lhl_MaTG" Type="String" MaxLength="5" FixedLength="true" Unicode="false" />
+    <Property Name="Lhl_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="Lhl_TacGia" Relationship="LeHoangLong_2210900037Model.FK_Lhl_Sach_Lhl_TacGia" FromRole="Lhl_Sach" ToRole="Lhl_TacGia" />
+  </EntityType>
+  <EntityType Name="Lhl_TacGia">
+    <Key>
+      <PropertyRef Name="Lhl_MaTG" />
+    </Key>
+    <Property Name="Lhl_MaTG" Type="String" MaxLength="5" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Lhl_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Lhl_Sach" Relationship="LeHoangLong_2210900037Model.FK_Lhl_Sach_Lhl_TacGia" FromRole="Lhl_TacGia" ToRole="Lhl_Sach" />
+  </EntityType>
+  <EntityContainer Name="LeHoangLong_2210900037Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Lhl_Sach" EntityType="Self.Lhl_Sach" />
+    <EntitySet Name="Lhl_TacGia" EntityType="Self.Lhl_TacGia" />
+    <AssociationSet Name="FK_Lhl_Sach_Lhl_TacGia" Association="LeHoangLong_2210900037Model.FK_Lhl_Sach_Lhl_TacGia">
+      <End Role="Lhl_TacGia" EntitySet="Lhl_TacGia" />
+      <End Role="Lhl_Sach" EntitySet="Lhl_Sach" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_Lhl_Sach_Lhl_TacGia">
+    <End Type="LeHoangLong_2210900037Model.Lhl_TacGia" Role="Lhl_TacGia" Multiplicity="0..1" />
+    <End Type="LeHoangLong_2210900037Model.Lhl_Sach" Role="Lhl_Sach" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lhl_TacGia">
+        <PropertyRef Name="Lhl_MaTG" />
+      </Principal>
+      <Dependent Role="Lhl_Sach">
+        <PropertyRef Name="Lhl_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

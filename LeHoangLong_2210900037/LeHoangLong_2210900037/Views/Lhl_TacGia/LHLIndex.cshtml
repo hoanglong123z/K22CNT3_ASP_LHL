@@ -1,0 +1,39 @@
+﻿@model IEnumerable<LeHoangLong_2210900037.Models.Lhl_TacGia>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Thêm Mới", "LHLCreate")
+</p>
+<table class="table table-bordered" >
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Lhl_MaTG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lhl_TenTG)
+        </th>
+        <th>Chức Năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lhl_MaTG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Lhl_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("LHL:Edit", "LHLEdit", new { id = item.Lhl_MaTG }, new { @class = "btn btn-success" }) |
+            @Html.ActionLink("LHL:Details", "LHLDetails", new { id = item.Lhl_MaTG }, new { @class = "btn btn-info" }) |
+            @Html.ActionLink("LHL:Delete", "LHLDelete", new { id = item.Lhl_MaTG }, new { @class = "btn btn-danger" })
+        </td>
+    </tr>
+}
+
+</table>

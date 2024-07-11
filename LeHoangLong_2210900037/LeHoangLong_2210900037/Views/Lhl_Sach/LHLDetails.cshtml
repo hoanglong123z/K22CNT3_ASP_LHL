@@ -1,0 +1,58 @@
+﻿@model LeHoangLong_2210900037.Models.Lhl_Sach
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Lhl_Sach</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Lhl_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lhl_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lhl_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lhl_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lhl_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lhl_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lhl_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lhl_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lhl_TacGia.Lhl_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lhl_TacGia.Lhl_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "LHLEdit", new { id = Model.Lhl_MaSach }) |
+    @Html.ActionLink("Back to List", "LHLIndex")
+</p>
